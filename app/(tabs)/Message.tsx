@@ -1,10 +1,11 @@
 import { View, Text } from "react-native";
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigation } from "expo-router";
 
 export default function MessageScreen() {
   return (
     <View>
-      <Text>MessageScreen</Text>
+      <Text style={{ margin: 100 }}>MessageScreen</Text>
     </View>
   );
 }
